@@ -1,44 +1,48 @@
 # Loan Credit Classification
 
-## Objective
+## About
 
-The objective of this project is to predict loan approval status using machine learning classification algorithms.
+This is a beginner Machine Learning project to predict whether a loan should be approved or not.
 
-## Dataset
+In this project, I trained and compared different classification models to find which one gives the best result.
 
-Loan Credit Dataset
+## Models Used
 
-## Data Preprocessing
+- Logistic Regression
+- KNN Classifier
+- Random Forest Classifier
+- Gradient Boosting Classifier
 
-* Missing Value Handling
-* Categorical Data Encoding
-* Train-Test Split
+## What I Did
 
-## Models Compared
+- Loaded the dataset
+- Checked missing values
+- Encoded categorical data
+- Selected useful features
+- Split the data into training and testing sets
+- Trained different machine learning models
+- Compared their performance
 
-* Logistic Regression
-* K-Nearest Neighbors (KNN)
-* Naive Bayes
+## Evaluation
 
-## Evaluation Metrics
+I compared the models using:
 
-* Accuracy Score
-* Precision Score
-* Recall Score
-* F1 Score
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 
-## Results
+Among all the models, **Gradient Boosting Classifier** gave the best performance on this dataset.
 
-After comparing all three classification algorithms, Naive Bayes achieved the best performance on the dataset.
+## Tools Used
 
-## Libraries Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
+## Note
 
-## Conclusion
-
-Model comparison showed that Naive Bayes was the most effective classifier for this dataset.
+This is a beginner project that I created while learning Machine Learning. I will continue improving my projects as I learn new concepts.
