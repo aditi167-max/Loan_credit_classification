@@ -28,11 +28,9 @@ In this project, I trained and compared different classification models to find 
 I compared the models using:
 
 - Accuracy
-- Precision
 - Recall
-- F1 Score
 
-Among all the models, **Gradient Boosting Classifier** gave the best performance on this dataset.
+Among all the models, **Gradient Boosting Classifier** gave the best performance on this dataset based on Accuracy.
 
 ## Tools Used
 
